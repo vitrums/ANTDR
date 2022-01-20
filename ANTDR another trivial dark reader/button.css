@@ -1,0 +1,35 @@
+div.switchModeButtonsContainer {
+  overflow: visible;
+  white-space: nowrap;
+}
+
+button.switchModeButton {
+  height: 30px;
+  width: 60px;
+  outline: none;
+  margin: 0px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+button#dayMode {
+  background-color: #DDDDDD;
+  color: black;
+  margin-right: 10px;
+}
+
+button#dayMode:hover {
+  background-color: #CCCCCC;
+}
+
+button#nightMode {
+  background-color: #333333;
+  color: white;
+}
+
+button#nightMode:hover {
+  background-color: #111111;
+}
