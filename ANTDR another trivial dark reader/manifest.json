@@ -1,7 +1,7 @@
 {
   "name": "ANTDR: ANother Trivial Dark Reader",
   "description": "Only two buttons. Simply switch between day and night mode for the active tab. Works for offline PDFs too!",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
   "action": {

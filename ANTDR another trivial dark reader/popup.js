@@ -49,7 +49,7 @@ function dimTheLights() {
       height: 100vh; 
       background-color: white; 
       mix-blend-mode: difference; 
-      z-index: 1; 
+      z-index: 2147483647; 
     `;
 	
     cover.setAttribute("style", css);
